@@ -6,7 +6,8 @@ header div.logo {}
 header div.logo img {display: block; margin-bottom: 20px;}
 
 section.content>div {margin: auto; max-width: 100%;}
-section.content>div h1 {margin: auto; display: block; text-align: center;}
+section.content>div h1 {margin: auto; display: block; text-align: center;width:80%;}
+section.content>div hr {margin: auto; display: block; text-align: center;width:85%; margin-top:15px; margin-bottom:15px}
 section.content>div p {text-align: center; font-style: italic; font-size: 16px;}
 
 @media screen and (max-width: 480px) {
