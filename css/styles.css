@@ -1,0 +1,19 @@
+body {font-family: Arial; font-size: 14px; font-weight: normal; color: #25356f; box-sizing: border-box; margin: 0; padding: 0}
+
+div.wrapper {display: flex; height: calc(100vh - 100px); align-items: center; justify-content: center; flex-direction: column; padding-bottom: 100px;}
+
+header div.logo {}
+header div.logo img {display: block; margin-bottom: 20px;}
+
+section.content>div {margin: auto; max-width: 100%;}
+section.content>div h1 {margin: auto; display: block; text-align: center;}
+section.content>div p {text-align: center; font-style: italic; font-size: 16px;}
+
+@media screen and (max-width: 480px) {
+	div.wrapper {padding: 0 20px}
+
+	header div.logo img {margin-bottom: 0;}
+
+	section.content>div h1 {font-size: 18px;}
+	section.content>div p {text-align: center; font-style: italic; font-size: 14px;}
+}
